@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  border: 1px solid red;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  height: 500px;
+}
+
+#todo-title {
+  margin: 20px;
+}
+
+#todo-subtitle {
+  margin: 20px;
+}
+
+#todo-input {
+  width: 50%;
+  height: 28px;
+}
+
+#todo-submit {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  padding: 8px 12px;
+  margin-left: 8px;
+}
+
+#todo-output {
+  list-style-position: inside;
+  border: 1px solid red;
+  width: 75%;
+  margin: 15px auto;
+  text-align: left;
+}
